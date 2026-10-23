@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>مصنع مدريد للملابس الجاهزة | جملة للمكاتب والمحلات</title>
+    <meta
+      name="description"
+      content="مصنع مدريد للملابس الجاهزة. جملة فقط للمكاتب والمحلات. تشكيلة بنطلون رياضي جاهز بألوان متعددة. بدون أسعار على الموقع، والطلب عبر واتساب."
+    />
+    <meta name="theme-color" content="#0c0e11" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mdmadrid.shop/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mdmadrid.shop/" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta property="og:title" content="مصنع مدريد للملابس الجاهزة" />
+    <meta
+      property="og:description"
+      content="جملة فقط للمكاتب والمحلات. الأسعار والطلبات عبر واتساب."
+    />
+    <meta property="og:image" content="https://mdmadrid.shop/assets/sculpture.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/logo.png" />
+    <link rel="preload" as="image" href="assets/sculpture.jpg" media="(max-width: 900px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Cormorant+Garamond:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script>
+      try {
+        var lite = matchMedia("(max-width: 900px)").matches;
+        if (navigator.connection && navigator.connection.saveData) lite = true;
+        if (lite) document.documentElement.classList.add("lite");
+        if (
+          lite ||
+          sessionStorage.getItem("madrid-intro") === "1" ||
+          matchMedia("(prefers-reduced-motion: reduce)").matches
+        ) {
+          document.documentElement.classList.add("skip-intro", "is-entered");
+        }
+      } catch (e) {}
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Manufacturer",
+        "name": "مصنع مدريد للملابس الجاهزة",
+        "alternateName": "MD Madrid",
+        "description": "مصنع ملابس جاهزة. جملة فقط للمكاتب والمحلات. الطلب والأسعار عبر واتساب.",
+        "image": "https://mdmadrid.shop/assets/sculpture.jpg",
+        "url": "https://mdmadrid.shop/",
+        "telephone": ["+201270282602", "+201220289119"],
+        "sameAs": ["https://www.facebook.com/profile.php?id=61570176042864"],
+        "areaServed": "EG",
+        "brand": {
+          "@type": "Brand",
+          "name": "Madrid"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#content">تخطي إلى المحتوى</a>
+    <div class="progress" aria-hidden="true"></div>
+    <div class="intro" aria-hidden="true">
+      <div class="intro-panel intro-panel-a"></div>
+      <div class="intro-panel intro-panel-b"></div>
+      <div class="intro-inner">
+        <div class="intro-logo-wrap">
+          <img class="intro-logo" src="assets/logo.png" alt="" />
+        </div>
+        <div class="intro-line"></div>
+        <p class="intro-name">مصنع مدريد</p>
+        <p class="intro-sub">ملابس جاهزة · جملة فقط</p>
+      </div>
+    </div>
+
+    <header class="nav">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="assets/logo.png" alt="" width="92" height="61" />
+        <span>
+          <strong>مدريد</strong>
+          <small>ملابس جاهزة</small>
+        </span>
+      </a>
+      <nav class="nav-links" id="menu" aria-label="أقسام الموقع">
+        <a href="#collection">التشكيلة</a>
+        <a href="#colors">الألوان</a>
+        <a href="#order">الطلب</a>
+        <a href="#contact">تواصل</a>
+        <a href="https://www.facebook.com/profile.php?id=61570176042864" target="_blank" rel="noopener noreferrer">فيسبوك</a>
+      </nav>
+      <a class="btn btn-gold nav-wa" href="#contact">واتساب</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="sr-only">القائمة</span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="content">
+      <section class="hero-pin" id="top">
+        <div class="hero-sticky">
+          <canvas id="stage" tabindex="0" aria-label="مجسم ثلاثي الأبعاد لعلامة MD. اسحب أو استخدم الأسهم للدوران."></canvas>
+          <img class="hero-fallback" src="assets/sculpture.jpg" alt="" width="1100" height="733" decoding="async" fetchpriority="high" />
+          <div class="hero-shade" aria-hidden="true"></div>
+          <p class="hero-vertical" aria-hidden="true">MADRID</p>
+          <div class="hero-copy">
+            <h1>
+              <span class="kicker">مصنع</span>
+              <span class="display">مدريد</span>
+              <span class="h1-rest">للملابس الجاهزة</span>
+            </h1>
+            <p class="lead">جملة فقط للمكاتب والمحلات</p>
+            <p class="deck">بنطلون رياضي جاهز بألوان من التشكيلة الحالية. لا أسعار على الموقع، والطلب مباشرة على واتساب.</p>
+            <div class="hero-actions">
+              <a class="btn btn-gold" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%20%D9%84%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D8%A9." data-wa>تواصل واتساب</a>
+              <a class="btn btn-line" href="#collection">شاهد التشكيلة</a>
+            </div>
+            <p class="hero-phones">
+              <a dir="ltr" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%20%D9%84%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D8%A9.">01270282602</a>
+              <span aria-hidden="true">·</span>
+              <a dir="ltr" href="https://wa.me/201220289119?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%20%D9%84%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D8%A9.">01220289119</a>
+            </p>
+          </div>
+          <p class="hero-drag">اسحب المجسم للدوران</p>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span>جملة فقط للمكاتب والمحلات</span><i class="dot"></i>
+            <span>مصنع مدريد للملابس الجاهزة</span><i class="dot"></i>
+            <span>بدون أسعار على الموقع</span><i class="dot"></i>
+            <span>الطلب عبر واتساب</span><i class="dot"></i>
+            <span>بنطلون رياضي جاهز</span><i class="dot"></i>
+            <span>MD Madrid</span><i class="dot"></i>
+          </div>
+          <div class="marquee-group" data-clone>
+            <span>جملة فقط للمكاتب والمحلات</span><i class="dot"></i>
+            <span>مصنع مدريد للملابس الجاهزة</span><i class="dot"></i>
+            <span>بدون أسعار على الموقع</span><i class="dot"></i>
+            <span>الطلب عبر واتساب</span><i class="dot"></i>
+            <span>بنطلون رياضي جاهز</span><i class="dot"></i>
+            <span>MD Madrid</span><i class="dot"></i>
+          </div>
+        </div>
+      </div>
+
+      <section class="campaign" aria-labelledby="brand-title">
+        <img src="assets/sculpture.jpg" alt="مجسم حرفي MD من معدن ذهبي على قاعدة سوداء مكتوب عليها Madrid" width="1100" height="733" loading="lazy" decoding="async" />
+        <div class="campaign-card" data-reveal>
+          <p class="kicker">01 — العلامة</p>
+          <h2 id="brand-title">Madrid</h2>
+          <p>نفس الحروف على البطاقة وعلى القطعة. المصنع يتعامل جملة مع المكاتب والمحلات، والسعر يوصل على واتساب حسب الطلب.</p>
+        </div>
+      </section>
+
+      <section class="piece" id="collection">
+        <div class="piece-copy" data-reveal>
+          <p class="kicker">02 — التشكيلة</p>
+          <h2>بنطلون رياضي جاهز</h2>
+          <p class="deck">قطعة من الإنتاج الحالي. القصة واضحة في الصورة: خصر برباط، جيب جانبي، أسورة مضلعة، وعلامة المصنع على الخصر.</p>
+          <dl class="facts">
+            <div>
+              <dt>البيع</dt>
+              <dd>جملة للمكاتب والمحلات</dd>
+            </div>
+            <div>
+              <dt>السعر</dt>
+              <dd>غير معلن، ويُحدد على واتساب</dd>
+            </div>
+            <div>
+              <dt>المقاس</dt>
+              <dd>يُؤكد مع الطلب</dd>
+            </div>
+            <div>
+              <dt>العلامة</dt>
+              <dd>بطاقة MD Madrid ورقعة على الخصر</dd>
+            </div>
+          </dl>
+          <p class="note">الصور من الإنتاج الحالي. التوفر الفعلي للألوان والمقاسات يُؤكد عند التواصل.</p>
+          <div class="inline-actions">
+            <a class="btn btn-gold" href="#colors">اختر لوناً</a>
+            <a class="btn btn-line" href="#contact" data-wa>اطلب الجملة</a>
+          </div>
+        </div>
+        <div class="lookbook">
+          <figure class="shot" data-reveal>
+            <img src="assets/rack-wide.jpg" alt="بنطلون رياضي جاهز على العلاقة بألوان الفحمي والكحلي والأزرق والبني والبترولي والبيج والرمادي والأوف وايت" width="900" height="675" loading="lazy" decoding="async" />
+            <figcaption>التشكيلة على العلاقة</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <img src="assets/rack-stand.jpg" alt="بنطلون رياضي جاهز بقصة كاملة: خصر برباط، جيب جانبي، وأسورة، بألوان البترولي والكحلي والأزرق والبيج والرمادي" width="760" height="1013" loading="lazy" decoding="async" />
+            <figcaption>القصة من الخصر حتى الأسورة</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="colors">
+        <header class="section-head" data-reveal>
+          <p class="kicker">03 — الألوان</p>
+          <h2>من التشكيلة الحالية</h2>
+          <p>اضغط اللون. الرسالة تفتح على واتساب وفيها اسم اللون، ومن غير أي سعر.</p>
+        </header>
+      </section>
+      <div class="bands">
+        <a class="band" data-reveal style="--swatch:#c6a56e;--ink:#1a140c" data-wa data-color="بيج" data-hex="#c6a56e" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A8%D9%8A%D8%AC."><span class="band-index">01</span><span class="band-name">بيج</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#171717;--ink:#f6f1e7" data-wa data-color="أسود" data-hex="#171717" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A3%D8%B3%D9%88%D8%AF."><span class="band-index">02</span><span class="band-name">أسود</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#1e2a44;--ink:#f6f1e7" data-wa data-color="كحلي غامق" data-hex="#1e2a44" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D9%83%D8%AD%D9%84%D9%8A%20%D8%BA%D8%A7%D9%85%D9%82."><span class="band-index">03</span><span class="band-name">كحلي غامق</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#e4ddd0;--ink:#1a140c" data-wa data-color="أوف وايت" data-hex="#e4ddd0" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A3%D9%88%D9%81%20%D9%88%D8%A7%D9%8A%D8%AA."><span class="band-index">04</span><span class="band-name">أوف وايت</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#2c3e6b;--ink:#f6f1e7" data-wa data-color="كحلي" data-hex="#2c3e6b" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D9%83%D8%AD%D9%84%D9%8A."><span class="band-index">05</span><span class="band-name">كحلي</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#6b4632;--ink:#f6f1e7" data-wa data-color="بني" data-hex="#6b4632" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A8%D9%86%D9%8A."><span class="band-index">06</span><span class="band-name">بني</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#2f6c96;--ink:#f6f1e7" data-wa data-color="أزرق" data-hex="#2f6c96" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A3%D8%B2%D8%B1%D9%82."><span class="band-index">07</span><span class="band-name">أزرق</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#c9ccd0;--ink:#1a140c" data-wa data-color="رمادي" data-hex="#c9ccd0" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%B1%D9%85%D8%A7%D8%AF%D9%8A."><span class="band-index">08</span><span class="band-name">رمادي</span><span class="band-go">اطلب على واتساب</span></a>
+        <a class="band" data-reveal style="--swatch:#3e6870;--ink:#f6f1e7" data-wa data-color="بترولي" data-hex="#3e6870" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B7%D9%84%D8%A8%20%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7%D9%84%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A.%20%D8%A7%D9%84%D9%84%D9%88%D9%86%3A%20%D8%A8%D8%AA%D8%B1%D9%88%D9%84%D9%8A."><span class="band-index">09</span><span class="band-name">بترولي</span><span class="band-go">اطلب على واتساب</span></a>
+      </div>
+
+      <section class="section" id="order">
+        <header class="section-head" data-reveal>
+          <p class="kicker">04 — الطلب</p>
+          <h2>الجملة تتم بالتواصل المباشر</h2>
+          <p>الموقع للتعارف ومعاينة التشكيلة. البيع للمكاتب والمحلات، ومن غير أسعار معلنة.</p>
+        </header>
+        <div class="steps">
+          <article class="step" data-reveal>
+            <b>01</b>
+            <h3>أرسل الطلب</h3>
+            <p>اكتب اسم المحل أو المكتب، واللون، والكمية التقريبية على واتساب.</p>
+          </article>
+          <article class="step" data-reveal>
+            <b>02</b>
+            <h3>استلم السعر</h3>
+            <p>نرد بالتكلفة والمقاسات المتاحة. لا يوجد سعر ثابت معروض هنا.</p>
+          </article>
+          <article class="step" data-reveal>
+            <b>03</b>
+            <h3>جملة فقط</h3>
+            <p>لا بيع بالقطعة من الموقع. الخطوط مخصصة لأصحاب المحلات والمكاتب.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <header class="section-head" data-reveal>
+          <p class="kicker">05 — تواصل</p>
+          <h2>خطان للواتساب</h2>
+          <p class="deck">أي استفسار عن التشكيلة أو الكمية أو السعر يتحوّل مباشرة إلى واتساب. لا نماذج تُحفظ على الموقع.</p>
+        </header>
+        <div class="lines" data-reveal>
+          <a class="line" href="https://wa.me/201270282602?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%20%D9%84%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D8%A9.">
+            <span class="line-num" dir="ltr">01270282602</span>
+            <span class="line-actions"><small>واتساب</small></span>
+          </a>
+          <a class="line" href="https://wa.me/201220289119?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%85%D9%86%20%D9%85%D8%B5%D9%86%D8%B9%20%D9%85%D8%AF%D8%B1%D9%8A%D8%AF%20%D9%84%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D8%A9.">
+            <span class="line-num" dir="ltr">01220289119</span>
+            <span class="line-actions"><small>واتساب</small></span>
+          </a>
+        </div>
+        <p>
+          <a class="social" href="https://www.facebook.com/profile.php?id=61570176042864" target="_blank" rel="noopener noreferrer">صفحة المصنع على فيسبوك</a>
+        </p>
+        <p class="call-row">
+          <a class="social" href="tel:+201270282602" dir="ltr">اتصال 01270282602</a>
+          <a class="social" href="tel:+201220289119" dir="ltr">اتصال 01220289119</a>
+        </p>
+
+        <form class="composer" id="order-form" data-reveal>
+          <h3>جهّز الرسالة ثم أرسلها على واتساب</h3>
+          <div class="form-grid">
+            <label>
+              <span>الاسم</span>
+              <input name="name" autocomplete="name" />
+            </label>
+            <label>
+              <span>اسم المحل أو المكتب</span>
+              <input name="shop" autocomplete="organization" />
+            </label>
+            <label>
+              <span>النشاط</span>
+              <select name="activity">
+                <option value="">اختياري</option>
+                <option>محل</option>
+                <option>مكتب جملة</option>
+                <option>أخرى</option>
+              </select>
+            </label>
+            <label>
+              <span>اللون</span>
+              <select name="color" id="color">
+                <option value="">أحدد لاحقاً</option>
+                <option>بيج</option>
+                <option>أسود</option>
+                <option>كحلي غامق</option>
+                <option>أوف وايت</option>
+                <option>كحلي</option>
+                <option>بني</option>
+                <option>أزرق</option>
+                <option>رمادي</option>
+                <option>بترولي</option>
+              </select>
+            </label>
+            <label>
+              <span>الكمية التقريبية</span>
+              <input name="qty" placeholder="مثال: 50 قطعة" />
+            </label>
+            <label class="wide">
+              <span>ملاحظة</span>
+              <textarea name="note"></textarea>
+            </label>
+          </div>
+          <div class="contact-actions">
+            <button class="btn btn-gold" type="button" data-send="201270282602">إرسال إلى 01270282602</button>
+            <button class="btn btn-line" type="button" data-send="201220289119">إرسال إلى 01220289119</button>
+          </div>
+          <p class="note">الزر يفتح واتساب برسالتك. لا يُحفظ شيء على الموقع.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" width="88" height="58" />
+        <div>
+          <strong>مصنع مدريد للملابس الجاهزة</strong>
+          جملة فقط للمكاتب والمحلات
+        </div>
+      </div>
+      <div>
+        <a dir="ltr" href="https://wa.me/201270282602">01270282602</a>
+        ·
+        <a dir="ltr" href="https://wa.me/201220289119">01220289119</a>
+        <div>© 2026 MD Madrid</div>
+      </div>
+    </footer>
+
+    <a class="wa-float" href="#contact" data-wa>واتساب</a>
+
+    <dialog id="wa" aria-labelledby="wa-title">
+      <p class="kicker">واتساب</p>
+      <h2 id="wa-title">اختر خط التواصل</h2>
+      <p id="wa-preview"></p>
+      <div class="wa-choices">
+        <a class="wa-choice" data-phone="201270282602" href="https://wa.me/201270282602">
+          <span dir="ltr">01270282602</span>
+          <small>واتساب</small>
+        </a>
+        <a class="wa-choice" data-phone="201220289119" href="https://wa.me/201220289119">
+          <span dir="ltr">01220289119</span>
+          <small>واتساب</small>
+        </a>
+      </div>
+      <form method="dialog">
+        <button class="btn btn-line" type="submit">إغلاق</button>
+      </form>
+    </dialog>
+
+    <noscript>
+      <p class="noscript">للتواصل: واتساب 01270282602 أو 01220289119. جملة فقط، وبدون أسعار على الموقع.</p>
+    </noscript>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
